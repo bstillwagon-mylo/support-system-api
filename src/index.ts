@@ -15,6 +15,6 @@ app.use(express.urlencoded());
 app.use('/', defaultRoute)
 
 // start the server
-app.listen(process.env.BACK_PORT, () => {
+app.listen(process.env.PORT || 3001, () => {
     console.log(`server running`);
   });
