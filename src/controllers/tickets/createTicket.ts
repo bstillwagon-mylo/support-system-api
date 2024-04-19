@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express'
-import { supabase } from '../../supabase/client'
+import { supabase } from '../../../supabase/client'
 
 const handler = async (req: Request, res: Response): Promise<any> => {
     const { name, email, description } = req.body;
