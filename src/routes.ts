@@ -7,7 +7,7 @@ import sendMessage from './controllers/sendMessage';
 
 export const defaultRoute = Router();
 
-defaultRoute.get('/heath', (req, res) => {
+defaultRoute.get('/', (req, res) => {
   res.send("Available");
 });
 
