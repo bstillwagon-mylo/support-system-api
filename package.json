@@ -7,8 +7,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node build/src/index.js",
-    "heroku-postbuild": "cp src/index.js app/",
+    "start": "node src/index.js",
     "build": "tsc",
     "dev": "node --env-file=.env --watch -r ts-node/register src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
