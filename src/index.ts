@@ -16,5 +16,5 @@ app.use('/', defaultRoute)
 
 // start the server
 app.listen(process.env.BACK_PORT, () => {
-    console.log(`server running : http://${process.env.BACK_HOST}:${process.env.BACK_PORT}`);
+    console.log(`server running`);
   });
